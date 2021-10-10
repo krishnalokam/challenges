@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body{
+  margin:0;
+  background-image: url("https://i.imgur.com/K6g10BB.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+p {
+  margin: 0;
+  font-weight: bold;
+}
+#wanted {
+  font-family: ewert;
+  font-weight: normal;
+  font-size: 44pt;
+  margin: 0px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 2em;
+}
+
+#description {
+/* text-decoration: underline; */
+font-style: italic;
+}
+#prize {
+  text-decoration: underline;
+  text-decoration-style:double;
+}
+
+.mugshot {
+  height: 300px;
+  width: 325px;
+  border: solid #291200;
+  margin: 10px;
+}
+.poster {
+  width: 480px;
+  height: 620px;
+  background-image: url("https://i.imgur.com/Y9Tiq8a.jpg");
+  text-align: center;
+  margin: auto;
+  box-shadow: 2px 4px 8px 3px #000000;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
