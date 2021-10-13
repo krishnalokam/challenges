@@ -4,21 +4,25 @@ body {
 }
 
 .container{
-  background-color: blue;
-  height: 200px;
+  width: 80%;
+  margin:auto;
+  padding: 20px;
   display: flex;
+  text-align: center;
+  background-color: powderblue;
 }
 
 .text-content {
-  background-color: green;
-  /* height: 100%; */
-  flex:auto;
+  flex:1; 
+  
+  margin: 0px auto;
+}
+.text-width {
+  width: 60%;
+  margin: auto;
+}
+img {
+  flex:1;
+  border-radius: 20px;
 }
 
-.img-content {
-  background-color: yellow;
-  /* height: 100%; */
-  /* width: 100%; */
-  /* margin: auto; */
-  
-}
